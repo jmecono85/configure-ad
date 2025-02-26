@@ -23,8 +23,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 1 Create the Domain Controller VM (Windows Server 2022) named “DC-1” 
 - Step 2 After VM is created, set Domain Controller’s NIC Private IP address to be static. Log into the VM and disable the Windows Firewall (for testing connectivity)
 - Step 3 Create the Client VM (Windows 10) named “Client-1”
-- Step 4 
-- Step 5
+- Step 4 After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address (10.0.0.4)
+- Step 5 Attempt to ping DC-1’s private IP address
+Ensure the ping succeeded
+From Client-1, open PowerShell and run ipconfig /all
+The output for the DNS settings should show DC-1’s private IP Address
+
 
 <h2>Deployment and Configuration Step 1</h2>
 
@@ -62,7 +66,28 @@ ________________________________________________________________________________
 
 <p>
   
+![image](https://github.com/user-attachments/assets/f3c31044-8cab-46a8-9058-67cf0c99be06)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/88d546cf-ad8c-4292-a79b-bd5d72f4b72a)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/92e96df8-336d-4ccb-8dba-b577f240b196)
+____________________________________________________________________________________________________
 
 
 </p>
+
+<h2>Deployment and Configuration Step 5</h2>
+
+<p>
+  
+![image](https://github.com/user-attachments/assets/f3c31044-8cab-46a8-9058-67cf0c99be06)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/88d546cf-ad8c-4292-a79b-bd5d72f4b72a)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/5e872f1f-ee1b-48aa-8055-178c7f844f42)
+____________________________________________________________________________________________________
+
+
+</p>
+
 
