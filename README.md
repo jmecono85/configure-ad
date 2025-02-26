@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 5 Attempt to ping DC-1’s private IP address
 Ensure the ping succeeded
 From Client-1, open PowerShell and run ipconfig /all
-The output for the DNS settings should show DC-1’s private IP Address
+The output for the DNS settings should show DC-1’s private IP Address (10.0.0.4)
 
 
 <h2>Deployment and Configuration Step 1</h2>
@@ -80,13 +80,8 @@ ________________________________________________________________________________
 
 <p>
   
-![image](https://github.com/user-attachments/assets/f3c31044-8cab-46a8-9058-67cf0c99be06)
+![image](https://github.com/user-attachments/assets/a4c87145-4132-48d2-82b4-2cf1cf53cd0e)
 ____________________________________________________________________________________________________
-![image](https://github.com/user-attachments/assets/88d546cf-ad8c-4292-a79b-bd5d72f4b72a)
-____________________________________________________________________________________________________
-![image](https://github.com/user-attachments/assets/5e872f1f-ee1b-48aa-8055-178c7f844f42)
-____________________________________________________________________________________________________
-
 
 </p>
 
