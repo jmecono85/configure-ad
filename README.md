@@ -21,7 +21,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1 Create the Domain Controller VM (Windows Server 2022) named “DC-1” 
-- Step 2 After VM is created, set Domain Controller’s NIC Private IP address to be static. Log into the VM and disable the Windows Firewall (for testing connectivity)
+- Step 2 After VM is created, set Domain Controller’s NIC Private IP address to be static.
+- Log into the  DC-1 VM and disable the Windows Firewall (for testing connectivity) Right click on the Windows icon and click run. Then type (wf.msc) and turn off Domain Profile, Private Profile, and Public Profile.
 - Step 3 Create the Client VM (Windows 10) named “Client-1”
 - Step 4 After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address (10.0.0.4)
 - Step 5 Attempt to ping DC-1’s private IP address
@@ -49,6 +50,14 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________
 ![image](https://github.com/user-attachments/assets/8572acdc-45ef-47e8-bc40-60d9b3551ec4)
 ____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/790bc2e0-7c0b-4ed0-a5cd-19883ff5cee4)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/eb238244-b9f5-4c5a-9e99-c01a73887def)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/de943591-ef05-4547-9855-04931ca6da27)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/a37f8c70-b3ee-4d9b-996e-b96213005748)
+
 
 
 <h2>Deployment and Configuration Step 3</h2>
