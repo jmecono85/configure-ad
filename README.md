@@ -21,7 +21,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1 Create the Domain Controller VM (Windows Server 2022) named “DC-1” and Create the Client VM (Windows 10) named “Client-1”
-- Step 2 
+- Step 2 Log into the VM and disable the Windows Firewall (for testing connectivity)
+
 - Step 3
 - Step 4
 
@@ -34,14 +35,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/user-attachments/assets/ac27b990-b14a-4eca-ac1a-31d4f8279acd)
 ![image](https://github.com/user-attachments/assets/7e0a3d3b-29aa-4c78-b53e-8af378c1354c)
 
-
-
-
-
 </p>
 
+<h2>Deployment and Configuration Steps2</h2>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+
+
 </p>
-<br />
+
