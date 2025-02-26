@@ -31,6 +31,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
   
 ![Server 2022](https://github.com/user-attachments/assets/e00cda20-9dea-418e-ba26-2166e34a64dd)
 ![image](https://github.com/user-attachments/assets/24966794-2a24-4a2e-8235-42cc71adab28)
+![image](https://github.com/user-attachments/assets/ac27b990-b14a-4eca-ac1a-31d4f8279acd)
+![image](https://github.com/user-attachments/assets/7e0a3d3b-29aa-4c78-b53e-8af378c1354c)
+
+
 
 
 
