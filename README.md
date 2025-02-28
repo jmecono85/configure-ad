@@ -145,6 +145,12 @@ ________________________________________________________________________________
 
 </p>
 
-
+<p>
+- Login in the Domain Controller (DC-1 Public, IP Address: 172.184.192.165)
+- Go to "START" and select "Server Manager"
+- Go to "Manage" and select "Add Roles and Features"
+- Keep clicking next and at "Server Role" Select "Active Directory Domain Services" then Add Features, and keep clicking next and "Install."
+</p>
+<br />
 
 
