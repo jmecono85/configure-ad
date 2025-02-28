@@ -29,24 +29,25 @@ This tutorial outlines the implementation of on-premises Active Directory within
 Ensure the ping succeeded
 From Client-1, open PowerShell and run ipconfig /all
 The output for the DNS settings should show DC-1’s private IP Address (10.0.0.4)
--  Step 6 Install Active Directory
+
+ [Step 6] Install Active Directory
 - Login in the Domain Controller (DC-1 Public, IP Address: 172.184.192.165)
 - Go to "START" and select "Server Manager"
 - Go to "Manage" and select "Add Roles and Features"
 - Keep clicking next and at "Server Role" Select "Active Directory Domain Services" then Add Features, and keep clicking next and "Install."
 
-Step 7 Setup a new forest in the Active Directory as (mydomain.com)
+[Step 7] Setup a new forest in the Active Directory as (mydomain.com)
 - Click on the "FLAG" on top right
 - In Deployment Configuration select "add new forrest" in the "Root domain name" type (mydomain.com) and "Install"
 
-Step 8 Create a Domain Admin user within the domain (mydomain.com)
+[Step 8] Create a Domain Admin user within the domain (mydomain.com)
 - In "Active Directory Users and Computers" (ADUC), create an Organizational Unit (OU) called "_ADMINS"
 - Go to "Active Directory Users and Computers"
 - Right Click on (mydomain.com) "NEW"--> "Organizational Unit" and create a folder for "_ADMINS"
 - Create a user, (Jane Doe) under "_ADMINS" --> Right Click on "_ADMINS" --> "NEW" --> "USER"
 - Add Jane to the “Domain Admins” Security Group to make her an official ADMIN. --> Right Click on Jane's account --> Properties--> Member of --> Type: "Domain Admins"--> Check Names--> Apply
 
-Step 9 Create a bunch of additional users in Folder "_EMPLOYEES" 
+[Step 9] Create a bunch of additional users in Folder "_EMPLOYEES" 
 - Login in the Domain Controller (DC-1 Public, IP Address: 172.184.192.165) as "Jane"
 - In "Active Directory Users and Computers" (ADUC), create an Organizational Unit (OU) called "_EMPLOYEES"
 - Go to "Active Directory Users and Computers"
@@ -55,6 +56,17 @@ Step 9 Create a bunch of additional users in Folder "_EMPLOYEES"
 - Create a new File and paste the contents of the script into it
 - Run the script and observe the accounts being created
 - When finished, open ADUC and observe the accounts in the appropriate OU
+
+[Step 10] Dealing with Account Lockouts
+- Log in to CLIENT-1 IP Address: 172.184.199.219 as one of the user (jag.jut), that was created in PowerShell_ise
+- Purposely enter incorrect password to lock the account 
+- Login in the Domain Controller (DC-1 Public, IP Address: 172.184.192.165) as "Jane"
+- Go to "Active Directory Users and Computers"
+- Right Click (mydomain.com) --> Find --> enter user (jag.jut) --> Right Click on user --> Account --> Check "Unlock Account" section --> Apply --> OK
+
+[Step 11] Enabling and Disabling Accounts
+- Go to "Active Directory Users and Computers"
+- Right Click (mydomain.com) --> Find --> enter user (jag.jut) --> Right Click on user --> select ENABLE ACCOUNT OR DISABLE ACCOUNT.
 
 
  
