@@ -41,6 +41,7 @@ The output for the DNS settings should show DC-1’s private IP Address (10.0.0.
 - In Deployment Configuration select "add new forrest" in the "Root domain name" type (mydomain.com) and "Install"
 
 [Step 8] Create a Domain Admin user within the domain (mydomain.com)
+- Go to Start Menu
 - In "Active Directory Users and Computers" (ADUC), create an Organizational Unit (OU) called "_ADMINS"
 - Go to "Active Directory Users and Computers"
 - Right Click on (mydomain.com) "NEW"--> "Organizational Unit" and create a folder for "_ADMINS"
@@ -149,6 +150,7 @@ ________________________________________________________________________________
 </p>
 
 ____________________________________________________________________________________________________
+
 </p>
 
 <h2>Deployment and Configuration Step 7</h2>
@@ -163,8 +165,31 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________
 
 
+</p>
+
 
 </p>
+
+<h2>Deployment and Configuration Step 8</h2>
+
+<p>
+  
+![image](https://github.com/user-attachments/assets/50b4c313-cc33-4e52-94b3-8b9101a41667)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/b58f77a0-8fb8-4833-a7d0-f64f55529b26)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/5845d75c-9fa5-474a-ac79-f44ef5fb8694)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/66e282de-ffca-4a56-9a1a-644889d55d63)
+_____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/0d640d86-2367-4dc5-8958-a3351e33aa9c)
+
+
+</p>
+
+
+
+
 
 
 
