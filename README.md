@@ -37,7 +37,7 @@ The output for the DNS settings should show DC-1’s private IP Address (10.0.0.
 - Keep clicking next and at "Server Role" Select "Active Directory Domain Services" then Add Features, and keep clicking next and "Install."
 
 [Step 7] Setup a new forest in the Active Directory as (mydomain.com)
-- Click on the "FLAG" on top right
+- Click the "FLAG" on top right --> click on "Promote this Server to a Domain Controller"
 - In Deployment Configuration select "add new forrest" in the "Root domain name" type (mydomain.com) and "Install"
 
 [Step 8] Create a Domain Admin user within the domain (mydomain.com)
@@ -140,17 +140,31 @@ ________________________________________________________________________________
 
 <p>
   
-![image](https://github.com/user-attachments/assets/a4c87145-4132-48d2-82b4-2cf1cf53cd0e)
+![image](https://github.com/user-attachments/assets/6a5763f2-39af-4aca-b0e8-3c86af766229)
 ____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/45f28cc8-5fd0-4ab0-a79c-4ce37cf084f6)
+____________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/d29ae36c-f274-498d-9fed-a6103e451bfd)
 
 </p>
+
+
+</p>
+
+<h2>Deployment and Configuration Step 7</h2>
 
 <p>
-- Login in the Domain Controller (DC-1 Public, IP Address: 172.184.192.165)
-- Go to "START" and select "Server Manager"
-- Go to "Manage" and select "Add Roles and Features"
-- Keep clicking next and at "Server Role" Select "Active Directory Domain Services" then Add Features, and keep clicking next and "Install."
+  
+![image](https://github.com/user-attachments/assets/312b735a-3365-4730-8fee-361a63fc04ec)
+____________________________________________________________________________________________________
+
+____________________________________________________________________________________________________
+
+
 </p>
-<br />
+
+
+
+
 
 
