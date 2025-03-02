@@ -69,10 +69,20 @@ The output for the DNS settings should show DC-1’s private IP Address (10.0.0.
 - Go to "Active Directory Users and Computers"
 - Right Click (mydomain.com) --> Find --> enter user (jag.jut) --> Right Click on user --> select ENABLE ACCOUNT OR DISABLE ACCOUNT.
 
+Step 12 Create sample file shares with various permissions
+- Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)
+- On DC-1, on the C:\ drive, create 3 folders: “read-access”, “write-access”, “no-access”
+- Set the following permissions (share the folder)
+- Folder: “read-access”, Group: “Domain Users”, Permission: “Read”
+- Folder: “write-access”,  Group: “Domain Users”, Permissions: “Read/Write”
+- Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write"
+- Connect/log into Client-1 as a normal user (mydomain.com\jag.jut)
+- Attempt to access file shares as a normal user (jag.jut)
+- Navigate to the shared folder (start, run, \\dc-1)
+- Try to access each of the folders and verify permission 
 
  
        
-
 
 <h2>Deployment and Configuration Step 1</h2>
 
@@ -218,7 +228,6 @@ ________________________________________________________________________________
 ![image](https://github.com/user-attachments/assets/5615d554-7dd9-4d0e-b7b9-f092b01f4034)
 _________________________________________________________________________________________________
 
-
 </p>
 
 
@@ -231,11 +240,45 @@ ________________________________________________________________________________
  ![image](https://github.com/user-attachments/assets/664abe01-0b30-4531-98a5-e0f4ac4d8073)
 ________________________________________________________________________________________________
 
-
 </p>
 
 
+</p>
 
+<h2>Deployment and Configuration Step 12</h2>
+
+<p>
+
+![image](https://github.com/user-attachments/assets/0123000b-8da7-4e65-a32a-8f1ca54913c5)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/2a0e348c-c60e-44c7-8113-b272e9de6d5a)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/1c88e92e-511b-4332-8ea0-f83a9cf5a46f)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/5e600d20-547f-4a5b-a5e4-39bd350f7873)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/bafee9ae-a89f-4fa3-bebc-589a1ed201e9)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/71af89cf-edf0-4cfb-9ead-8dda15be028f)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/6b6ec942-8092-42d3-95f2-473c5b023a2d)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/99b503c9-0741-4cfd-aa2c-63032cf9bd53)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/cad9bf64-f2e1-4176-955e-f47cb5791220)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/e6d51ead-e78a-46dd-83ed-2e9e17e9aa86)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/871f8708-8a21-4a58-8a0a-f4ea0f1a0398)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/50fb42b3-6a3c-4d0a-8566-7c476c63a182)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/7f1dc94f-b67f-4ef0-80ae-b7ab99693566)
+________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/4c48d314-b940-4c8d-8572-a59016a2b6cb)
+________________________________________________________________________________________________
+
+</p>
 
 
 
